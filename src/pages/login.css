@@ -1,0 +1,82 @@
+/* signup.css */
+.ion-padding {
+  padding: 16px;
+  background-color: #f0f2f5;
+}
+
+ion-header {
+  --background: #3880ff;
+  --color: #ffffff;
+}
+
+ion-toolbar {
+  --background: #3880ff;
+  --color: #ffffff;
+}
+
+ion-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ion-item {
+  margin-bottom: 16px;
+}
+
+ion-label {
+  font-size: 18px;
+  color: #666666;
+}
+
+ion-input {
+  --background: #ffffff;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.signup-button {
+  width: 100%;
+  max-width: 300px;
+  background-color: #3880ff;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #3171e0;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.signup-text span {
+  color: #3880ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-text span:hover {
+  color: #3171e0;
+}
+
+ion-alert {
+  --backdrop-opacity: 0.4;
+  --background: #ffffff;
+  --button-color: #3880ff;
+  --color: #333333;
+}
